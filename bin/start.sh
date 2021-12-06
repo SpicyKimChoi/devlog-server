@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
-set -eu
+export COMPOSE_PROJECT_NAME=msupandrunning
 
-export COMPOSE_PROJECT_NAME=microservices-workspace-demo
+export wkdr=$PWD
+cd $wkdr/devlog-postgresql && make start
 
-pushd ms-demo-node && make start
-popd
-pushd ms-demo-golang && make start
-popd
-
+cd $wkdr
 make proxystart
 
+unset wkdr

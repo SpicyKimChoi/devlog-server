@@ -1,10 +1,6 @@
 {
-  "ms-demo-golang" : {
-    "url"  : "https://github.com/inadarei/justgo-microservice",
-    "branch" : "master"
-  },
-
-  "ms-demo-node" : {
-    "url" : "https://github.com/inadarei/microservices-workspace-ms-demo-node.git"
+  "devlog-postgresql" : {
+    "url"  : "https://github.com/SpicyKimChoi/devlog-postgresql",
+    "branch" : "main"
   }
 }
