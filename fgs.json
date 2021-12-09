@@ -1,6 +1,10 @@
 {
   "devlog-postgresql" : {
     "url"  : "https://github.com/SpicyKimChoi/devlog-postgresql",
-    "branch" : "main"
+    "branch" : "dev"
+  },
+  "ms-user-authentication":{
+    "url": "https://github.com/SpicyKimChoi/ms-user-authentication",
+    "branch": "dev"
   }
 }

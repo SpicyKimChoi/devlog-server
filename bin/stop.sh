@@ -3,6 +3,7 @@ export COMPOSE_PROJECT_NAME=msupandrunning
 
 export wkdr=$PWD
 cd $wkdr/devlog-postgresql && make stop
+cd $wkdr/ms-user-authentication && make stop
 
 cd $wkdr
 make proxystop

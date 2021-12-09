@@ -19,6 +19,10 @@ default: update start
 start: 
 	- ./bin/start.sh
 
+.PHONY: dev
+dev: 
+	- ./bin/dev.sh
+
 .PHONY: stop
 stop: 
 	- ./bin/stop.sh
